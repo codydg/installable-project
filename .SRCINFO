@@ -1,0 +1,14 @@
+pkgbase = installable-package
+	pkgdesc = Test making a package for Arch Linux
+	pkgver = 0.1
+	pkgrel = 1
+	url = https://github.com/codydg/InstallableProject
+	arch = any
+	license = APACHE
+	provides = installable-package
+	conflicts = installable-package
+	source = installable-package-0.1::https://github.com/codydg/InstallableProject.git
+	md5sums = SKIP
+
+pkgname = installable-package
+
